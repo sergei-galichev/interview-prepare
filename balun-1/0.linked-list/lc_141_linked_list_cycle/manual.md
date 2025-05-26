@@ -1,4 +1,4 @@
-[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
 ```go
 package main
