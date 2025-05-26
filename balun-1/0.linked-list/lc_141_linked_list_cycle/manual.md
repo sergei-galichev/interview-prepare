@@ -1,4 +1,4 @@
-[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
 ```go
 package main
@@ -52,6 +52,9 @@ func hasCycle(head *ListNode) bool {
 
 **Описание решения**
 
-Создаем два указателя slow и fast. И в цикле идем по всем нодам пока fast и fast.Next не равны nil. Т.к. быстрый
-указать fast смещается на 2 ноды, а slow только на 1, то он догонит slow через некоторое время, если есть цикл.
+Создаем два указателя slow и fast (алгоритм Флойда). И в цикле идем по всем нодам пока fast и fast.Next не равны nil.
+Т.к. быстрый указать fast смещается на 2 ноды, а slow только на 1, то он догонит slow через некоторое время, если есть
+цикл.
+
+[Алгоритм Флойда](https://gabhisekdev.medium.com/why-does-floyds-cycle-detection-algorithm-work-59f61984dc3e)
 
