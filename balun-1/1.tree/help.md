@@ -1,0 +1,12 @@
+1. preorder
+    - action
+    - left
+    - right
+2. inorder
+    - left
+    - action
+    - right
+3. postorder
+   - left
+   - right
+   - action
