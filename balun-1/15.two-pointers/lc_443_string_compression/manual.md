@@ -3,6 +3,10 @@
 ```go
 package main
 
+import (
+	"strconv"
+)
+
 func compress(chars []byte) int {
 	idx1 := 0
 	idx2 := 0
